@@ -5,6 +5,8 @@ The CoreML model used in Piatto is capable of taking natural language input and 
 
 That data is not publically available in this repo, and so we provide a visual demo below instead!
 
+However, I did open-source the Allergy CoreML models in this repo. If anything, I would like for developers to take my AllergyML and use it to improve their Allergy detection! 
+
 ![RecipeFromNaturalLanguage.gif](media/RecipeFromNaturalLanguage.gif)
 
 ## Cocktail Flavors
