@@ -28,14 +28,14 @@ At this time, the model works very well in a PyTorch environment, but I am still
 ![RecipeGeneration](media/RecipeGeneration(Online).gif)
 
 ### PiattoAI (my Version)
-Below is the model output from the iOS CoreML adaptation of the RecipeGeneration model built in PyTorch (named `recipegen_distilgpt2_48_256_6). This model is designed to be effective and ultra-light (only weighs ~300MB) and can cover all the needs of the OpenAI version (albeit much slower). Based on the results, this looks like 
+Below is the model output from the iOS CoreML adaptation of the RecipeGeneration model built in PyTorch (named `recipegen_distilgpt2_48_256_6). This model is designed to be effective and ultra-light (only weighs ~300MB) and can cover all the needs of the OpenAI version (albeit much slower). Based on the results, this looks like a working recipe!
 ```
 Recipe Name: Blueberry Pancakes
 
 Name: Blueberry Pancakes
 Ingredients: ['1 cup all-purpose flour;', 
-'3/4 teaspoon baking powder;'
-, 'Dash salt;', 
+'3/4 teaspoon baking powder;', 
+'Dash salt;', 
 '2 eggs, lightly beaten;', 
 '1 cup 2% milk;', 
 '2 tablespoons canola oil;', 
