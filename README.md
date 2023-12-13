@@ -28,6 +28,8 @@ Piatto offers a powerful Generate Recipe feature that leverages OpenAI for recip
 At this time, the model works very well in a PyTorch environment, but I am still learning to optimize text generation models iOS.
 
 ### OpenAI Version
+This calls our Firebase API and makes a prompt call to OpenAI to generate a recipe given the prompt. They use `text-davinci-003` to complete the recipe. All recipes generated via this method are logged into our GCP storage bucket. Once you have enough OpenAI data collected, it can faciliate building your own independing model (that's not what I did - I would need to rely on 1000s of users for recipes)
+
 ![RecipeGeneration](media/RecipeGeneration(Online).gif)
 
 ### PiattoAI (my Version)
