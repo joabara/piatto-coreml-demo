@@ -44,3 +44,5 @@ Ingredients: ['1 cup all-purpose flour;',
 '2 tablespoons canola oil;', 
 '2 cups fresh or frozen blueberries;']
 ```
+
+In a realistic engineering design, I think the tradeoffs of having a slower model at the benefit of having a local AI model isn't worth it. GPT2 models like this one are best for longer and more complex tasks. Perhaps the local AI would be a good `free` version and a paid subscription would give access to the OpenAI version.
