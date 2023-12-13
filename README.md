@@ -17,3 +17,11 @@ The ML solution implemented in Piatto has the capability to identify alcohol ing
 Piatto utilizes federated QR codes, which offer two fantastic advantages. Firstly, these QR codes embed all the underlying recipe data into a single code, eliminating the need for internet or cloud storage to share a recipe. It provides a convenient and offline method of sharing recipes. Secondly, the on-device encryption ensures that the QR code can only be decoded by other users of the Piatto app. If you try scanning the QR code with any other QR code reader, you will only find gibberish instead of the actual recipe. Give it a try!
 
 ![FederatedQRCode](media/FederatedQRCode.gif)
+
+
+## Generate Recipe Feature
+Piatto offers a powerful Generate Recipe feature that leverages OpenAI for recipe generation. However, to ensure seamless functionality even without internet access and without the need for storing user data in a cloud, a local recipe generation AI model has been deployed within the app. This allows users to enjoy all the app's features offline, while maintaining privacy and data security.
+
+At this time, the model works very well in a PyTorch environment, but I am still learning to optimize text generation models iOS.
+
+![RecipeGeneration](media/RecipeGeneration(Online).gif)
