@@ -1,11 +1,12 @@
 # Piatto - Language ML on iOS
+I open-sourced the Allergy CoreML models in this repo. If anything, I would like for developers to take my AllergyML and use it to improve their Allergy detection! 
 
 ## Recipe + Allergies From Natural Language
 The CoreML model used in Piatto is capable of taking natural language input and effortlessly converting it into a structured recipe object. While CreateML made the process of training the model straightforward, building the training dataset for the CoreML model required extensive work with PyTorch and Python. This was necessary to ensure that the model could accurately extract ingredient names and their corresponding quantities from the given text.
 
 That data is not publically available in this repo, and so we provide a visual demo below instead!
 
-However, I did open-source the Allergy CoreML models in this repo. If anything, I would like for developers to take my AllergyML and use it to improve their Allergy detection! 
+
 
 ![RecipeFromNaturalLanguage.gif](media/RecipeFromNaturalLanguage.gif)
 
